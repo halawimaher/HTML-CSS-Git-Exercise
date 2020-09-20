@@ -1,1 +1,17 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
+.messages .message:first-child {
+  opacity: 0.5;
+}
+
+.messages .message:last-child {
+  border-left-color: blue;
+}
