@@ -15,3 +15,6 @@ a {
 .messages .message:last-child {
   border-left-color: blue;
 }
+.message {
+  line-height: 2.5;
+}
