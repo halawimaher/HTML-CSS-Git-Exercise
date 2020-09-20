@@ -37,7 +37,50 @@
         <div class="checkout">
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
-            <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Address</legend>
+              <div>
+                <label for="Address-line-1" id="AL1"
+                  >Address Line 1 <input type="text" name="AL1"
+                /></label>
+              </div>
+              <div>
+                <label for="Address-Line-2" id="AL2">
+                  Address Line 2 <input type="text" name="AL2"
+                /></label>
+              </div>
+              <div>
+                <label for="Postcode" id="Postcode"
+                  >Postcode
+                  <input type="text" name="Postcode" />
+                </label>
+              </div>
+              <div>
+                <label for="City" id="City"> City <input type="text" name="City"/></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <div>
+                <label for="Del-line-1" id="DA1"
+                  >Address Line 1 <input type="text" name="DA1"
+                /></label>
+              </div>
+              <div>
+                <label for="Del-Line-2" id="DA2"
+                  >Address Line 2 <input type="text" name="DA2"
+                /></label>
+              </div>
+              <div>
+                <label for="Postcode" id="DPostcode"
+                  >Postcode
+                  <input type="text" name="DPostcode" />
+                </label>
+              </div>
+              <div>
+                <label for="City" id="DCity">City <input type="text" name="DCity"/></label>
+              </div>
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
