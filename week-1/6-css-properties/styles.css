@@ -12,8 +12,8 @@ a {
   opacity: 0.5;
 }
 
-.messages .message:last-child {
-  border-left-color: blue;
+div.message.message--unread {
+  border-left: 2px solid blue;
 }
 .message {
   line-height: 2.5;
