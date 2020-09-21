@@ -1,1 +1,54 @@
 /* Add your own CSS code below */
+.heart-symbol {
+  color: #c85308;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 50px;
+  }
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .views__title,
+  .view-list__item,
+  .views__all {
+    margin: 5px;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
+
+label {
+  cursor: default;
+}
+
+.main-article {
+  max-width: 50em;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+  line-height: 25px;
+}
